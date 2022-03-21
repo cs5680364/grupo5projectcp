@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body{
+    background-color: #fff;
+}
+
+/*NAV*/
+
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+nav {
+    float: left; 
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 30px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #bd33a4;
+}
+
+/*FORM*/
+
+.form-entrada{
+    width: 400px;
+    background: purple;
+    padding: 30px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family: Verdana;
+    color : white;
+}
+
+.form-salida{
+    width: 400px;
+    background: purple;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: Verdana;
+    color : white;
+}
+
+.form-entrada h4{
+    font-size:22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1 1px solid blueviolet;
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+.form-entrada .botons{
+    width: 100%;
+    background:#00e700;
+    border:none;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    color:white;
+    margin:16px 0;
+    font-size: 16px;
+}
+
+.form-entrada .botons:active{
+    transform: scale(0.98);
+}
+
+footer{
+    width: 100%;
+    background: black;
+    color: #fff;
+    padding :40px;
+    margin:auto;
+    padding: 15px;
+}
+
+.container-footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding: 20px;
+}
+
+.container-footer a{
+    color:#bd33a4;
+    text-decoration: none;
+}
