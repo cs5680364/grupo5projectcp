@@ -2,11 +2,14 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana;
 }
 
 body{
     background-color: #fff;
+
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
 }
 
 /*NAV*/
@@ -50,20 +53,9 @@ nav ul li a {
     width: 400px;
     background: purple;
     padding: 30px;
-    margin: auto;
+    margin:auto;
     margin-top: 90px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    font-family: Verdana;
-    color : white;
-}
-
-.form-salida{
-    width: 400px;
-    background: purple;
-    padding: 30px;
-    margin: auto;
-    margin-top: 50px;
+    margin-bottom: 30px;
     border-radius: 4px;
     font-family: Verdana;
     color : white;
@@ -103,19 +95,24 @@ nav ul li a {
 
 footer{
     width: 100%;
-    align-self: flex-end;
     background: black;
     color: #fff;
-    padding :40px;
-    margin:auto;
-    padding: 15px;
+    padding :13px;
+    margin: auto;
+    position:absolute;
+    text-align: center;
+    bottom: 0;
 }
 
 .container-footer{
     width: 100%;
     background-color: black;
-    display: flex;
-    padding: 20px;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.container-footer p,a{
+    font-family: Verdana;
 }
 
 .container-footer a{
