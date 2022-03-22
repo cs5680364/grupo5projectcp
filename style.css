@@ -103,6 +103,7 @@ nav ul li a {
 
 footer{
     width: 100%;
+    top: 0;
     background: black;
     color: #fff;
     padding :40px;
