@@ -103,7 +103,8 @@ nav ul li a {
 
 footer{
     width: 100%;
-    top: 0;
+    position:relative;
+    align-self: flex-end;
     background: black;
     color: #fff;
     padding :40px;
